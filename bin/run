@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env
 
 dir="$(dirname "$0")"/..
 cd "$dir" || exit
