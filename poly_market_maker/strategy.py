@@ -11,7 +11,7 @@ from poly_market_maker.strategies.base_strategy import BaseStrategy
 from poly_market_maker.strategies.amm_strategy import AMMStrategy
 from poly_market_maker.strategies.bands_strategy import BandsStrategy
 
-
+# Strategy is an enum that defines the different strategies.
 class Strategy(Enum):
     AMM = "amm"
     BANDS = "bands"
