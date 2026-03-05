@@ -5,7 +5,7 @@ from poly_market_maker.token import Token
 
 from poly_market_maker.strategies.amm_strategy import OrderType
 
-
+# TestOrderType is a class that tests the OrderType.
 class TestOrderType(TestCase):
     token = Token.A
 

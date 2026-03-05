@@ -3,7 +3,7 @@ from web3 import Web3
 
 from poly_market_maker.ct_helpers import CTHelpers
 
-
+# TestCTHelpers is a class that tests the CTHelpers.
 class TestCTHelpers(TestCase):
     P = 21888242871839275222246405745257275088696311157297823662689037894645226208583
 

@@ -4,7 +4,7 @@ from poly_market_maker.strategies.amm import AMMManager, AMMConfig
 from poly_market_maker.order import Side
 from poly_market_maker.token import Token, Collateral
 
-
+# TestAMMManager is a class that tests the AMMManager.
 class TestAMMManager(TestCase):
     balances = {Token.A: 1000, Token.B: 1000, Collateral: 1000}
     config = AMMConfig(

@@ -3,7 +3,7 @@ from unittest import TestCase
 from poly_market_maker.token import Token
 from poly_market_maker.strategies.amm import AMM, AMMConfig
 
-
+# TestAMM is a class that tests the AMM.
 class TestAMM(TestCase):
     token = Token.A
     config = AMMConfig(

@@ -11,7 +11,7 @@ token_id_1 = (
     16678291189211314787145083999015737376658799626183230671758641503291735614088
 )
 
-
+# TestMarket is a class that tests the Market.
 class TestMarket(TestCase):
     market = Market(condition_id, usdc_address)
 

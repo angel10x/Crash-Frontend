@@ -2,7 +2,7 @@ from unittest import TestCase
 
 from poly_market_maker.market import Token
 
-
+# TestToken is a class that tests the Token.
 class TestToken(TestCase):
     def test_token(self):
         self.assertEqual(Token.A.value, "TokenA")

@@ -5,7 +5,7 @@ from poly_market_maker.token import Token
 from poly_market_maker.market import Market
 from poly_market_maker.clob_api import ClobApi
 
-
+# MockClobApi is a class that mocks the ClobApi.
 class MockClobApi(ClobApi):
     def __init__(self):
         pass

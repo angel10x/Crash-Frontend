@@ -6,6 +6,7 @@ from poly_market_maker.order import Order, Side
 
 from poly_market_maker.strategies.bands import Band, Bands
 
+# test_bands_config is a dictionary that contains the configuration for the bands.
 test_bands_config = {
     "bands": [
         {

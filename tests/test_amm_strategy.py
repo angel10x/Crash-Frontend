@@ -7,7 +7,7 @@ from poly_market_maker.token import Token, Collateral
 from poly_market_maker.strategies.amm_strategy import AMMStrategy
 from poly_market_maker.order import Order, Side
 
-
+# OrderBook is a class that represents the order book.
 class OrderBook:
     def __init__(self):
         self.orders = []

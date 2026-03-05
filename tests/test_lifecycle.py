@@ -4,7 +4,7 @@ from unittest.mock import MagicMock
 
 from poly_market_maker.lifecycle import Lifecycle
 
-
+# TestLifecycle is a class that tests the Lifecycle.
 class TestLifecycle(TestCase):
     def setUp(self):
         self.counter = 0

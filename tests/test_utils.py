@@ -2,7 +2,7 @@ from unittest import TestCase
 
 from poly_market_maker.utils import randomize_default_price
 
-
+# TestUtils is a class that tests the Utils.
 class TestUtils(TestCase):
     def test_randomize_default_price(self):
         price = 0.5

@@ -2,7 +2,7 @@ from unittest import TestCase
 
 from poly_market_maker.strategy import Strategy
 
-
+# TestStrategy is a class that tests the Strategy.
 class TestStrategy(TestCase):
     def test_strategy(self):
         strategy = Strategy.AMM
