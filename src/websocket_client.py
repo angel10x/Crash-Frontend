@@ -4,7 +4,7 @@ WebSocket Client Module - Real-time Market Data
 Provides WebSocket connectivity for Polymarket CLOB API:
 - Real-time orderbook updates
 - Price change notifications
-- Trade events
+- Trade event
 
 Example:
     from src.websocket_client import MarketWebSocket

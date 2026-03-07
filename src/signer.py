@@ -5,7 +5,7 @@ Provides EIP-712 signature functionality for Polymarket orders
 and authentication messages.
 
 EIP-712 is a standard for structured data hashing and signing
-that provides better security and user experience than plain
+that provides more improved security and user experience than plain
 message signing.
 
 Example:
