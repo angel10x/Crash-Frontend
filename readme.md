@@ -270,7 +270,7 @@ MIT License
 
 ------------------------------------------------------------------------
 
-# 🔥 Join the Trader Community
+# 🔥 Contact Us
 
 Stay updated with new strategies, bots, and alpha.
 
